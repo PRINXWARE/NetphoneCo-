@@ -27,7 +27,7 @@ body{
 .logo a{
     color: #4657A1;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .fas{
     color: #4657A1;
@@ -76,20 +76,20 @@ body{
     padding: 2rem 1rem;
 }
 .cards{
-    padding: 2.5rem 1rem;
+    padding:3rem 1rem;
     color: white;
     width: 100%;
-    min-height: 55vh;
     background-color: #4657A1;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 2rem;
 }
 .cards p{
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 400;
     font-family: 'roboto';
     padding: 0 1rem;
+    text-align: left;
 }
 .card2{
     background-color: #DD6453;
@@ -98,7 +98,7 @@ body{
     background-color: #2B5DFC;
 }
 .card-img img{
-    width: 85%;
+    width: 50%;
     min-height: auto;
 }
 
@@ -123,20 +123,20 @@ body{
 }
 .f-links{
     text-align: left;
-    margin-top: 8rem;
+    margin-top: 7rem;
     color: white;
     display: flex;
-    gap: 6rem;
+    justify-content: space-evenly;
 }
 .f-links p{
     margin-bottom: 1rem;
 }
 .f-links ul li a{
     color: white;
+    font-size: 12px;
 }
 .retail{
     margin-top: 1rem;
-}
 
 
 
