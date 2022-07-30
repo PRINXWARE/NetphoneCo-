@@ -23,6 +23,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.navlinks{
+    display: none;
+}
 
 .logo a{
     color: #4657A1;
@@ -35,11 +38,11 @@ body{
 }
 
 .info-con{
-    padding: 8rem 1.5rem;
+    padding: 7rem 1.5rem;
     color: white;
     width: 100%;
     background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,87,161,1) 100%); 
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,87,161,1) 100%);
     text-align: center;
 }
 .info-logo {
@@ -70,6 +73,13 @@ body{
     font-weight: 400;
     font-family: 'roboto';
 }
+.prize{
+    padding: 4rem 3rem;
+    color: white;
+    width: 100%;
+    background-color:#E05B49;
+    text-align: center;
+}
 /*-----------------------------main------------------------*/
 
 .main-con{
@@ -80,8 +90,8 @@ body{
     color: white;
     width: 100%;
     background-color: #4657A1;
-    text-align: center;
-    border-radius: 10px;
+    text-align: left;
+    border-radius: 6px;
     margin-bottom: 2rem;
 }
 .cards p{
@@ -137,9 +147,130 @@ body{
 }
 .retail{
     margin-top: 1rem;
+}
 
 
 
 
 
+/*--------------------media querry-------------------*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1){
 
+    .navigation{
+        background-color: white;
+        min-height: auto;
+        width: 100%;
+        top: 0;
+        overflow: hidden;
+        position: fixed;
+        padding: 0 4rem;
+        border-bottom: 1px solid #4657A1;
+    }
+    .nav-list{
+        margin: 1rem 1.5rem;
+        display: flex;
+    }
+    .navlinks{
+        padding-top: .4rem;
+        display: flex;
+        gap: 2.5rem;
+        margin-left: 25rem;
+    }
+    .navlinks a{
+        color: #4657A1;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .logo a{
+        color: #4657A1;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .fas{
+        display: none;
+        color: #4657A1;
+        font-size: 25px;
+    }
+    
+    .info-con{
+        padding: 10rem 2rem;
+        color: white;
+        width: 100%;
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,87,161,1) 100%);
+        text-align: center;
+    }
+    .info-logo {
+        margin: 1rem 5rem;
+    }
+    
+    .info-txt h1{
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'roboto';
+        margin-bottom: 0.5rem;
+    }
+    .info-txt p{
+        padding: 0 2rem;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'roboto';
+        margin-bottom: 0.5rem;
+    }
+    .btn{
+        margin-top: 3rem;
+    }
+    .btn a {
+        color: white;
+        background-color: #E05B49;
+        padding: 1rem 5rem;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'roboto';
+    }
+    .prize{
+        padding: 5rem 2rem;
+        color: white;
+        width: 100%;
+        background-color: #E05B49;
+        text-align: center;
+    }
+
+
+    .main-con{
+        padding: 5rem 2rem;
+        display: flex;
+        gap: 2rem;
+    }
+    .cards{
+        padding:3rem 1rem;
+        color: white;
+        width: 100%;
+        background-color: #4657A1;
+        text-align: left;
+        border-radius: 6px;
+        margin-bottom: 2rem;
+    }
+    .cards p{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'roboto';
+        padding: 0 1rem;
+        text-align: left;
+    }
+    .card2{
+        background-color: #DD6453;
+    }
+    .card3{
+        background-color: #2B5DFC;
+    }
+    .card-img img{
+        width: 50%;
+        min-height: auto;
+    }
+    
+  }
